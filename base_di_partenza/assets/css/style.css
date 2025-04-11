@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #ffc017;
+  border-bottom: solid 1px;
+}
+.conteiner {
+  width: 100%;
+  max-width: 90%;
+  margin-inline: auto;
+}
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.library-page {
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.button-library button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  max-width: 100px;
+  height: 40px;
+}
+.esterno-start {
+  background-color: #ffc017;
+  border-bottom: solid 1px;
+}
+.start-read {
+  display: flex;
+  max-width: 90%;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-start {
+  margin-block: 10%;
+  line-height: 1.5;
+}
+.text-start h1 {
+  font-family: "Spectral", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+}
+.text-start p {
+  width: 65%;
+  font-size: 25px;
+  line-height: 1;
+}
+.text-start button {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.article {
+  display: flex;
+  border: solid 1px rgba(128, 128, 128, 0.556);
+}
+.card {
+  display: flex;
+}
+.numero-card {
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(128, 128, 128, 0.419);
+}
+.contenuto-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  line-height: 1.7;
+}
+.contenuto-card h3 {
+  font-weight: 800;
+}
+.contenuto-card div:last-child {
+  color: rgb(97, 97, 97);
+}
+.profilo {
+  display: flex;
+  align-items: center;
+}
+.profilo img {
+  width: 10%;
+  border-radius: 20px;
+}
+.profilo h4 {
+  font-weight: 500;
+  padding-left: 5px;
+}
