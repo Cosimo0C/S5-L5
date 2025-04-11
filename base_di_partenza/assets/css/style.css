@@ -98,6 +98,7 @@ main {
 .card {
   display: flex;
   width: 25%;
+  padding-top: 10px;
 }
 .numero-card {
   font-size: 30px;
@@ -126,4 +127,8 @@ main {
 }
 .profilo h4 {
   font-weight: 500;
+}
+.data {
+  display: flex;
+  align-items: center;
 }
