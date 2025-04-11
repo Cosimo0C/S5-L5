@@ -170,3 +170,44 @@ main {
 .img-profilo {
   border-radius: 15px;
 }
+aside {
+  display: flex;
+  margin-block: 1%;
+  position: sticky;
+  top: 80px;
+  z-index: 999;
+  background-color: white;
+}
+.blocco1 {
+  display: flex;
+  flex-direction: column;
+}
+.blocco1 h1 {
+  font-weight: 800;
+  margin-block: 20px;
+}
+.card1-aside {
+  display: flex;
+}
+.button-aside {
+  background-color: white;
+  margin-block: 5px;
+  margin-inline: 5px;
+  width: 25%;
+  height: 35px;
+  color: grey;
+  border: solid 0.5px rgba(128, 128, 128, 0.188);
+}
+hr {
+  margin-block: 8%;
+  border: 1px solid rgb(241, 239, 239);
+}
+.button-aside1 {
+  background-color: white;
+  border: none;
+  color: grey;
+  margin-block: 5px;
+  margin-inline: 5px;
+  width: 12%;
+  height: 35px;
+}
