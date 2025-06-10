@@ -15,7 +15,7 @@ header {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 999;
+  z-index: 1000;
 }
 .header2 {
   background-color: #ffc017;
@@ -174,8 +174,8 @@ aside {
   display: flex;
   margin-block: 1%;
   position: sticky;
-  top: 80px;
-  z-index: 999;
+  top: 1px;
+  z-index: 1000;
   background-color: white;
 }
 .blocco1 {
@@ -188,6 +188,7 @@ aside {
 }
 .card1-aside {
   display: flex;
+  height: 100vh;
 }
 .button-aside {
   background-color: white;
